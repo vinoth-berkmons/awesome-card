@@ -1,0 +1,15 @@
+.textbox {
+  background-color: #f5f8fa;
+  border-color: #f5f8fa;
+  color: #5e6278;
+  font-weight: 500;
+  padding-right: calc(1.5em + 1.5rem);
+  padding: 0.825rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.475rem;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+input:disabled,
+input[disabled] {
+  opacity: 0.5;
+}
